@@ -15,13 +15,12 @@ It uses CRL2DArray implementation: "https://github.com/tGilani/CRL2DArray". Than
 2. Drag the `NSString+Levenshtein` folder into your project.
 3. Include `NSString+Levenshtein.h`, where you want to use it.
 
-### Cocoapods:
-
-`pod 'NSString-Levenshtein'`
 
 ## How to Use
 
 ### Example 1
-
-### Example 2
+NSString * string1 = @"L'Ampolla";
+NSString * string2 = @"Ampolla, L'";
+NSString * string3 = @"L'Aldea";
+NSLog("Lev 1=>2: %d, Lev 1=>3: %d", [s1 Levenshtein: string2], [s1 Levenshtein: string3]);
 
