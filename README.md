@@ -5,4 +5,4 @@ The Levenshtein distance is a string metric for measuring the difference between
 Informally, the Levenshtein distance between two words is the minimum number of single-character
 edits (i.e. insertions, deletions or substitutions) required to change one word into the other.
 
-Hello!
+Based on the implementation of the algorithms proposed in the Wikipedia "http://en.wikipedia.org/wiki/Levenshtein_distance".
