@@ -10,5 +10,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (Levenshtein)
-	-(int)LevenshteinDistance:(NSString*)s1 s2:(NSString*)s2;
+- (int)LevenshteinDistance:(NSString*)s2 percentage:(double)percentage;
 @end
