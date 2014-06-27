@@ -24,5 +24,4 @@ NSString * string1 = @"L'Ampolla";
 NSString * string2 = @"Ampolla, L'";
 NSString * string3 = @"L'Aldea";
 NSLog("Lev 1=>2: %d, Lev 1=>3: %d", [s1 Levenshtein: string2], [s1 Levenshtein: string3]);
-´´´
-
+```
