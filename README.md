@@ -19,8 +19,8 @@ It uses CRL2DArray implementation: "https://github.com/tGilani/CRL2DArray". Than
 ## How to Use
 
 ### Example 1
-NSString * string1 = @"L'Ampolla";
+`NSString * string1 = @"L'Ampolla";
 NSString * string2 = @"Ampolla, L'";
 NSString * string3 = @"L'Aldea";
-NSLog("Lev 1=>2: %d, Lev 1=>3: %d", [s1 Levenshtein: string2], [s1 Levenshtein: string3]);
+NSLog("Lev 1=>2: %d, Lev 1=>3: %d", [s1 Levenshtein: string2], [s1 Levenshtein: string3]);`
 
