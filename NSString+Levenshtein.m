@@ -12,7 +12,7 @@
 
 @implementation NSString (Levenshtein)
 - (int)LevenshteinDistance:(NSString*)s2 percentage:(double)percentage {
-		// percentage = 0.0;
+		percentage = 0.0;
 		
         NSString * s1 = self;
 		int cost = 0;
@@ -30,9 +30,6 @@
         for (int j = 0; j<=n; j++) {
             [d insertObject:[NSNumber numberWithInt:j] atRow:0 column:j];
         }
-    
-        // for (int i = 0; i <= m; [d insertObject:[NSNumber numberWithInt:i++] atRow:i column:0]);
-        // for (int j = 0; j <= n; [d insertObject:[NSNumber numberWithInt:j++] atRow:0 column:j]) ;
         
         for (int i = 1; i<=m; i++) {
             for (int j = 1; j<=n; j++) {
@@ -41,8 +38,8 @@
             }
         }
 
-        /*if (m>n) percentage = [[d objectAtRow:m column:n] doubleValue] / (double)m;
-        else percentage = [[d objectAtRow:m column:n] doubleValue] / (double)n;*/
+        if (m>n) percentage = [[d objectAtRow:m column:n] doubleValue] / (double)m;
+        else percentage = [[d objectAtRow:m column:n] doubleValue] / (double)n;
 		return [[d objectAtRow:m column:n] intValue];
 	}
 @end
