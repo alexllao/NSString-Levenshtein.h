@@ -1,12 +1,12 @@
 //
 // NSString+Levenshtein.h
 //
-// Modified by Ëlex Lla— on 06/27/14.
+// Modified by Àlex Llaó on 06/27/14.
 //
-// Created by Ëlex Lla— on Fri Jul 27 2014.
+// Created by Àlex Llaó on Fri Jul 27 2014.
 // alexllao (at) me.com
 // Based on the implementation of the algorithms 
-// proposed in the Wikipedia "http://en.wikipedia.org/wiki/Levenshtein_distance".
+// proposed in Wikipedia "http://en.wikipedia.org/wiki/Levenshtein_distance".
 
 #import <Foundation/Foundation.h>
 
