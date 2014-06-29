@@ -31,7 +31,9 @@
     for (int i = 1; i<=m; i++) {
         for (int j = 1; j<=n; j++) {
             cost = ([s1 characterAtIndex:i - 1] == [s2 characterAtIndex:j - 1]) ? 0 : 1;
-            [d insertObject:[NSNumber numberWithInt: MIN(MIN([[d objectAtRow: i - 1 column:j] intValue] + 1, [[d objectAtRow:i column: j - 1] intValue] + 1), cost + [[d objectAtRow:i - 1 column:j - 1] intValue])] atRow:i column:j];
+            [d insertObject:[NSNumber numberWithInt: MIN(MIN([[d objectAtRow: i - 1 column:j] intValue] + 1, 
+				[[d objectAtRow:i column: j - 1] intValue] + 1), cost + 
+				[[d objectAtRow:i - 1 column:j - 1] intValue])] atRow:i column:j];
         }
     }
 
