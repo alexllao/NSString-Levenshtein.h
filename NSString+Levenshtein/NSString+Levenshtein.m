@@ -5,7 +5,8 @@
 //
 // Created by Ëlex Lla— on Fri Jul 27 2014.
 // alexllao (at) me.com
-// Based on the implementation of the algorithms proposed in the Wikipedia "http://en.wikipedia.org/wiki/Levenshtein_distance".
+// Based on the implementation of the algorithms 
+// proposed in the Wikipedia "http://en.wikipedia.org/wiki/Levenshtein_distance".
 
 #import "NSString+Levenshtein.h"
 #import "CRL2DArray.h"
